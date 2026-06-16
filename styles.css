@@ -491,6 +491,11 @@ ul {
   height: 24px;
 }
 
+.contact-link__icon--itch {
+  color: #fa5c5c;
+  background: rgba(250, 92, 92, 0.12);
+}
+
 .contact-link__label {
   font-size: 0.75rem;
   color: var(--text-dim);
