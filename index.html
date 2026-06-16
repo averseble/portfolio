@@ -95,7 +95,7 @@
 
       <article class="project project--featured">
         <h3 class="project__title" data-i18n-en="Team Project on Unreal Engine 5" data-i18n-ru="Командный проект на Unreal Engine 5">Team Project on Unreal Engine 5</h3>
-        <div class="project__meta" data-i18n-en="Game Designer / Mechanics Developer · 2025" data-i18n-ru="Геймдизайнер / Разработчик механик · 2025">Game Designer / Mechanics Developer · 2025</div>
+        <div class="project__meta" data-i18n-en="The Mouse Adventure · Game Designer / Mechanics Developer · 2025" data-i18n-ru="The Mouse Adventure · Геймдизайнер / Разработчик механик · 2025">The Mouse Adventure · Game Designer / Mechanics Developer · 2025</div>
         <div class="project__grid">
           <div class="project__body">
             <ul class="project__list">
@@ -104,9 +104,16 @@
               <li data-i18n-en="Contributed to visual style through post-processing and materials in UE5" data-i18n-ru="Участвовал в настройке визуального стиля через пост-процессинг и материалы в UE5">Contributed to visual style through post-processing and materials in UE5</li>
               <li data-i18n-en="Designed tutorial levels where players learn mechanics through gameplay, not text instructions" data-i18n-ru="Создал дизайн обучающих уровней — игрок осваивает механики через геймплей, а не текстовые инструкции">Designed tutorial levels where players learn mechanics through gameplay, not text instructions</li>
             </ul>
-            <a href="https://www.youtube.com/watch?v=fF6nsVLADtg" class="project__video-link" target="_blank" rel="noopener noreferrer" data-i18n-en="Watch trailer on YouTube" data-i18n-ru="Смотреть трейлер на YouTube">Watch trailer on YouTube</a>
+            <div class="project__links">
+              <a href="https://www.youtube.com/watch?v=fF6nsVLADtg" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span class="project-link__icon project-link__icon--youtube" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2 31.5 31.5 0 000 12a31.5 31.5 0 00.6 5.8 3 3 0 002.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 002.1-2.1 31.5 31.5 0 00.6-5.8 31.5 31.5 0 00-.6-5.8zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>
+                </span>
+                <span data-i18n-en="Trailer" data-i18n-ru="Трейлер">Trailer</span>
+              </a>
+            </div>
           </div>
-          <div class="project__video">
+          <div class="project__media">
             <div class="video-wrapper">
               <iframe
                 src="https://www.youtube.com/embed/fF6nsVLADtg?rel=0&html5=1"
@@ -118,6 +125,11 @@
                 referrerpolicy="strict-origin-when-cross-origin"
               ></iframe>
             </div>
+            <div class="project__gallery project__gallery--compact">
+              <img src="https://img.youtube.com/vi/fF6nsVLADtg/maxresdefault.jpg" alt="The Mouse Adventure — screenshot 1" loading="lazy">
+              <img src="https://img.youtube.com/vi/fF6nsVLADtg/1.jpg" alt="The Mouse Adventure — screenshot 2" loading="lazy">
+              <img src="https://img.youtube.com/vi/fF6nsVLADtg/2.jpg" alt="The Mouse Adventure — screenshot 3" loading="lazy">
+            </div>
           </div>
         </div>
       </article>
@@ -125,35 +137,104 @@
       <article class="project">
         <h3 class="project__title" data-i18n-en="Game Jam Projects" data-i18n-ru="Геймджем-проекты">Game Jam Projects</h3>
         <div class="project__meta" data-i18n-en="Game Designer / Developer · Remote · 2024–2025" data-i18n-ru="Геймдизайнер / Разработчик · Удалённо · 2024–2025">Game Designer / Developer · Remote · 2024–2025</div>
-        <div class="project__body">
-          <ul class="project__list">
-            <li data-i18n-en="Participated in multiple Unreal Engine 5 game jams, delivering each project to a playable state within 48–72 hours" data-i18n-ru="Участвовал в нескольких геймджемах на Unreal Engine 5, каждый проект доведён до играбельного состояния за 48–72 часа">Participated in multiple Unreal Engine 5 game jams, delivering each project to a playable state within 48–72 hours</li>
-            <li data-i18n-en="Built prototypes across different genres for given themes, rapidly implementing core mechanics" data-i18n-ru="Разрабатывал прототипы в разных жанрах под заданные темы, быстро реализуя ключевые механики">Built prototypes across different genres for given themes, rapidly implementing core mechanics</li>
-            <li data-i18n-en="Collaborated with artists and sound designers, aligning my work with the team's goals" data-i18n-ru="Работал в команде, синхронизируя свою часть с задачами художников и звукорежиссёров">Collaborated with artists and sound designers, aligning my work with the team's goals</li>
-          </ul>
+        <div class="project__grid">
+          <div class="project__body">
+            <ul class="project__list">
+              <li data-i18n-en="Participated in multiple Unreal Engine 5 game jams, delivering each project to a playable state within 48–72 hours" data-i18n-ru="Участвовал в нескольких геймджемах на Unreal Engine 5, каждый проект доведён до играбельного состояния за 48–72 часа">Participated in multiple Unreal Engine 5 game jams, delivering each project to a playable state within 48–72 hours</li>
+              <li data-i18n-en="Built prototypes across different genres for given themes, rapidly implementing core mechanics" data-i18n-ru="Разрабатывал прототипы в разных жанрах под заданные темы, быстро реализуя ключевые механики">Built prototypes across different genres for given themes, rapidly implementing core mechanics</li>
+              <li data-i18n-en="Collaborated with artists and sound designers, aligning my work with the team's goals" data-i18n-ru="Работал в команде, синхронизируя свою часть с задачами художников и звукорежиссёров">Collaborated with artists and sound designers, aligning my work with the team's goals</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://github.com/averseble/BobrGameDailyTasks" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span class="project-link__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.32 3.52 1.01.11-.78.42-1.32.76-1.62-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.3 0 .32.22.69.83.58A12.01 12.01 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </span>
+                <span>Bobr Game</span>
+              </a>
+              <a href="https://github.com/averseble/P2P_SteamSDK_racing-game" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span class="project-link__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.32 3.52 1.01.11-.78.42-1.32.76-1.62-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.3 0 .32.22.69.83.58A12.01 12.01 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </span>
+                <span>Racing Game</span>
+              </a>
+            </div>
+          </div>
+          <div class="project__media">
+            <div class="project__gallery">
+              <img src="https://raw.githubusercontent.com/averseble/BobrGameDailyTasks/main/assets/Resources/beaver.png" alt="Bobr Game — character sprite" loading="lazy">
+              <img src="https://raw.githubusercontent.com/averseble/BobrGameDailyTasks/main/assets/Resources/buildings.png" alt="Bobr Game — buildings sprite sheet" loading="lazy">
+              <img src="https://raw.githubusercontent.com/averseble/BobrGameDailyTasks/main/assets/Resources/buildings2.png" alt="Bobr Game — environment assets" loading="lazy">
+              <img src="https://raw.githubusercontent.com/averseble/BobrGameDailyTasks/main/assets/Resources/buildings3.png" alt="Bobr Game — level props" loading="lazy">
+            </div>
+          </div>
         </div>
       </article>
 
       <article class="project">
         <h3 class="project__title" data-i18n-en="Game Framework on DirectX 11" data-i18n-ru="Игровой фреймворк на DirectX 11">Game Framework on DirectX 11</h3>
         <div class="project__meta" data-i18n-en="Solo · Graphics Programmer / Systems Developer · 2025" data-i18n-ru="Самостоятельно · Программист графики / Системный разработчик · 2025">Solo · Graphics Programmer / Systems Developer · 2025</div>
-        <div class="project__body">
-          <ul class="project__list">
-            <li data-i18n-en="Built a custom framework for a Katamari-style game in C++ and DirectX 11" data-i18n-ru="Написал собственный фреймворк для создания игры типа Katamari на C++ и DirectX 11">Built a custom framework for a Katamari-style game in C++ and DirectX 11</li>
-            <li data-i18n-en="Explored the low-level graphics pipeline: shaders, buffers, and rendering" data-i18n-ru="Разобрался в низкоуровневом графическом пайплайне: шейдеры, буферы, рендеринг">Explored the low-level graphics pipeline: shaders, buffers, and rendering</li>
-            <li data-i18n-en="Gained deep understanding of game systems architecture and performance optimization" data-i18n-ru="Получил глубокое понимание системной архитектуры игр и оптимизации производительности">Gained deep understanding of game systems architecture and performance optimization</li>
-          </ul>
+        <div class="project__grid">
+          <div class="project__body">
+            <ul class="project__list">
+              <li data-i18n-en="Built a custom framework for a Katamari-style game in C++ and DirectX 11" data-i18n-ru="Написал собственный фреймворк для создания игры типа Katamari на C++ и DirectX 11">Built a custom framework for a Katamari-style game in C++ and DirectX 11</li>
+              <li data-i18n-en="Explored the low-level graphics pipeline: shaders, buffers, and rendering" data-i18n-ru="Разобрался в низкоуровневом графическом пайплайне: шейдеры, буферы, рендеринг">Explored the low-level graphics pipeline: shaders, buffers, and rendering</li>
+              <li data-i18n-en="Gained deep understanding of game systems architecture and performance optimization" data-i18n-ru="Получил глубокое понимание системной архитектуры игр и оптимизации производительности">Gained deep understanding of game systems architecture and performance optimization</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://github.com/averseble/Directx11-practice1" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span class="project-link__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.32 3.52 1.01.11-.78.42-1.32.76-1.62-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.3 0 .32.22.69.83.58A12.01 12.01 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </span>
+                <span data-i18n-en="Source code" data-i18n-ru="Исходный код">Source code</span>
+              </a>
+            </div>
+          </div>
+          <div class="project__media">
+            <div class="project__gallery project__gallery--single">
+              <img src="https://opengraph.githubassets.com/1/averseble/Directx11-practice1" alt="DirectX 11 framework repository preview" loading="lazy">
+            </div>
+          </div>
         </div>
       </article>
 
       <article class="project">
         <h3 class="project__title" data-i18n-en="Prototyping in Unity and UE5" data-i18n-ru="Прототипирование на Unity и UE5">Prototyping in Unity and UE5</h3>
         <div class="project__meta" data-i18n-en="Technical Game Designer · Solo · 2026" data-i18n-ru="Технический геймдизайнер · Самостоятельно · 2026">Technical Game Designer · Solo · 2026</div>
-        <div class="project__body">
-          <ul class="project__list">
-            <li data-i18n-en="Created prototypes in Unity and Unreal Engine 5 to study specific mechanics and genres" data-i18n-ru="Создавал прототипы на Unity и Unreal Engine 5 для изучения реализации конкретных механик и жанров">Created prototypes in Unity and Unreal Engine 5 to study specific mechanics and genres</li>
-            <li data-i18n-en="Experimented with different scripting approaches: C# in Unity, Blueprints and C++ in UE5" data-i18n-ru="Экспериментировал с различными подходами к скриптингу: C# в Unity, Blueprints и C++ в UE5">Experimented with different scripting approaches: C# in Unity, Blueprints and C++ in UE5</li>
-          </ul>
+        <div class="project__grid">
+          <div class="project__body">
+            <ul class="project__list">
+              <li data-i18n-en="Created prototypes in Unity and Unreal Engine 5 to study specific mechanics and genres" data-i18n-ru="Создавал прототипы на Unity и Unreal Engine 5 для изучения реализации конкретных механик и жанров">Created prototypes in Unity and Unreal Engine 5 to study specific mechanics and genres</li>
+              <li data-i18n-en="Experimented with different scripting approaches: C# in Unity, Blueprints and C++ in UE5" data-i18n-ru="Экспериментировал с различными подходами к скриптингу: C# в Unity, Blueprints и C++ в UE5">Experimented with different scripting approaches: C# in Unity, Blueprints and C++ in UE5</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://github.com/averseble/ITMO.ZooMaster" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span class="project-link__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.32 3.52 1.01.11-.78.42-1.32.76-1.62-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.3 0 .32.22.69.83.58A12.01 12.01 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </span>
+                <span>Zoo Master</span>
+              </a>
+              <a href="https://github.com/averseble/ArSchoolProject" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span class="project-link__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.32 3.52 1.01.11-.78.42-1.32.76-1.62-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.3 0 .32.22.69.83.58A12.01 12.01 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </span>
+                <span>AR School</span>
+              </a>
+              <a href="https://github.com/averseble/ArGeometry" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span class="project-link__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.32 3.52 1.01.11-.78.42-1.32.76-1.62-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.3 0 .32.22.69.83.58A12.01 12.01 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </span>
+                <span>AR Geometry</span>
+              </a>
+            </div>
+          </div>
+          <div class="project__media">
+            <div class="project__gallery">
+              <img src="https://opengraph.githubassets.com/1/averseble/ITMO.ZooMaster" alt="Zoo Master Unity prototype" loading="lazy">
+              <img src="https://opengraph.githubassets.com/1/averseble/ArSchoolProject" alt="AR School Unity prototype" loading="lazy">
+              <img src="https://opengraph.githubassets.com/1/averseble/ArGeometry" alt="AR Geometry prototype" loading="lazy">
+              <img src="https://opengraph.githubassets.com/1/averseble/P2P_SteamSDK_racing-game" alt="P2P racing game prototype" loading="lazy">
+            </div>
+          </div>
         </div>
       </article>
     </section>
