@@ -41,7 +41,7 @@
           </svg>
         </div>
       </div>
-      <p class="hero__bio" data-i18n-en="Technical game designer focused on building game mechanics and systems design. Experienced in low-level programming (custom DirectX 11 framework) and modern engines (Unreal Engine 5, Unity). Participated in multiple game jams, delivering playable projects under tight deadlines." data-i18n-ru="Технический геймдизайнер с фокусом на разработку игровых механик и системный дизайн. Имею опыт низкоуровневого программирования (собственный фреймворк на DirectX 11) и работы с современными движками (Unreal Engine 5, Unity). Участвовал в нескольких геймджемах, где доводил проекты до играбельного состояния в условиях жёстких дедлайнов.">Technical game designer focused on building game mechanics and systems design. Experienced in low-level programming (custom DirectX 11 framework) and modern engines (Unreal Engine 5, Unity). Participated in multiple game jams, delivering playable projects under tight deadlines.</p>
+      <p class="hero__bio" data-i18n-en="Technical game designer focused on building game mechanics and systems design. Experienced in low-level graphics (DirectX 12, master's thesis — multi-GPU grass rendering) and modern engines (Unreal Engine 5, Unity). Participated in multiple game jams, delivering playable projects under tight deadlines." data-i18n-ru="Технический геймдизайнер с фокусом на разработку игровых механик и системный дизайн. Имею опыт низкоуровневой графики (DirectX 12, диплом — multi-GPU рендер травы) и работы с современными движками (Unreal Engine 5, Unity). Участвовал в нескольких геймджемах, где доводил проекты до играбельного состояния в условиях жёстких дедлайнов.">Technical game designer focused on building game mechanics and systems design. Experienced in low-level graphics (DirectX 12, master's thesis — multi-GPU grass rendering) and modern engines (Unreal Engine 5, Unity). Participated in multiple game jams, delivering playable projects under tight deadlines.</p>
     </section>
 
     <div class="divider" aria-hidden="true">
@@ -54,7 +54,7 @@
         <div class="skills-col">
           <h3 class="skills-col__head" data-i18n-en="Languages" data-i18n-ru="Языки">Languages</h3>
           <ul>
-            <li>C++ (DirectX 11)</li>
+            <li>C++ (DirectX 12)</li>
             <li>C# (Unity)</li>
             <li>Blueprints (UE5)</li>
           </ul>
@@ -180,17 +180,17 @@
       </article>
 
       <article class="project">
-        <h3 class="project__title" data-i18n-en="Game Framework on DirectX 11" data-i18n-ru="Игровой фреймворк на DirectX 11">Game Framework on DirectX 11</h3>
-        <div class="project__meta" data-i18n-en="Solo · Graphics Programmer / Systems Developer · 2025" data-i18n-ru="Самостоятельно · Программист графики / Системный разработчик · 2025">Solo · Graphics Programmer / Systems Developer · 2025</div>
+        <h3 class="project__title" data-i18n-en="Grass Rendering on DirectX 12 (Master's Thesis)" data-i18n-ru="Рендеринг травы на DirectX 12 (диплом)">Grass Rendering on DirectX 12 (Master's Thesis)</h3>
+        <div class="project__meta" data-i18n-en="Solo · Graphics / Performance · ITMO · 2025–2026" data-i18n-ru="Самостоятельно · Графика / Производительность · ИТМО · 2025–2026">Solo · Graphics / Performance · ITMO · 2025–2026</div>
         <div class="project__grid">
           <div class="project__body">
             <ul class="project__list">
-              <li data-i18n-en="Built a custom framework for a Katamari-style game in C++ and DirectX 11" data-i18n-ru="Написал собственный фреймворк для создания игры типа Katamari на C++ и DirectX 11">Built a custom framework for a Katamari-style game in C++ and DirectX 11</li>
-              <li data-i18n-en="Explored the low-level graphics pipeline: shaders, buffers, and rendering" data-i18n-ru="Разобрался в низкоуровневом графическом пайплайне: шейдеры, буферы, рендеринг">Explored the low-level graphics pipeline: shaders, buffers, and rendering</li>
-              <li data-i18n-en="Gained deep understanding of game systems architecture and performance optimization" data-i18n-ru="Получил глубокое понимание системной архитектуры игр и оптимизации производительности">Gained deep understanding of game systems architecture and performance optimization</li>
+              <li data-i18n-en="Optimized grass field rendering in DirectX 12 inside an existing research engine codebase" data-i18n-ru="Оптимизировал рендеринг травяных полей на DirectX 12 в чужом исследовательском движке">Optimized grass field rendering in DirectX 12 inside an existing research engine codebase</li>
+              <li data-i18n-en="Implemented and benchmarked single-GPU vs multi-GPU paths (up to ~2.5× speedup on dense LOD scenarios)" data-i18n-ru="Реализовал и сравнил single-GPU и multi-GPU (до ~2.5× на плотных LOD-сценариях)">Implemented and benchmarked single-GPU vs multi-GPU paths (up to ~2.5× speedup on dense LOD scenarios)</li>
+              <li data-i18n-en="Automated performance sweeps across LOD mixes and density presets for reproducible GPU benchmarks" data-i18n-ru="Автоматизировал perf-sweep по LOD и плотности для воспроизводимых GPU-бенчмарков">Automated performance sweeps across LOD mixes and density presets for reproducible GPU benchmarks</li>
             </ul>
             <div class="project__links">
-              <a href="https://github.com/averseble/Directx11-practice1" class="project-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/averseble/Multi-GPU-Render-DX12-master" class="project-link" target="_blank" rel="noopener noreferrer">
                 <span class="project-link__icon" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.32 3.52 1.01.11-.78.42-1.32.76-1.62-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.3 0 .32.22.69.83.58A12.01 12.01 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
                 </span>
@@ -200,7 +200,7 @@
           </div>
           <div class="project__media">
             <div class="project__gallery project__gallery--single">
-              <img src="https://opengraph.githubassets.com/1/averseble/Directx11-practice1" alt="DirectX 11 framework repository preview" loading="lazy">
+              <img src="https://opengraph.githubassets.com/1/averseble/Multi-GPU-Render-DX12-master" alt="DirectX 12 multi-GPU grass rendering repository preview" loading="lazy">
             </div>
           </div>
         </div>
