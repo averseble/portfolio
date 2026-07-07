@@ -263,6 +263,11 @@ ul {
   align-items: start;
 }
 
+.project__body--full {
+  max-width: 920px;
+  margin: 0 auto 1.75rem;
+}
+
 .project__media {
   display: flex;
   flex-direction: column;
@@ -381,6 +386,68 @@ ul {
 }
 
 .itch-card__desc {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.repo-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.35rem 1.5rem 1.35rem 3.25rem;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  transition: border-color 0.2s, transform 0.2s, background 0.2s;
+}
+
+.repo-card:hover {
+  border-color: rgba(184, 169, 212, 0.45);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+}
+
+.repo-card__badge {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.15rem;
+  width: 28px;
+  height: 28px;
+  color: var(--text-muted);
+  opacity: 0.9;
+}
+
+.repo-card__badge svg {
+  width: 100%;
+  height: 100%;
+}
+
+.repo-card__title {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--text);
+}
+
+.repo-card__tags {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0.85;
+}
+
+.repo-card__desc {
   font-size: 0.88rem;
   line-height: 1.6;
   color: var(--text-muted);
@@ -649,6 +716,10 @@ ul {
   }
 
   .itch-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .repo-grid {
     grid-template-columns: 1fr;
   }
 }
