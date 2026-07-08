@@ -674,6 +674,11 @@ ul {
   background: rgba(250, 92, 92, 0.12);
 }
 
+.contact-link__icon--telegram {
+  color: #2aabee;
+  background: rgba(42, 171, 238, 0.12);
+}
+
 .contact-link__label {
   font-size: 0.75rem;
   color: var(--text-dim);
