@@ -1,10 +1,10 @@
 const PAGE_META = {
   en: {
-    title: 'Matvey Matveev — Gameplay Designer',
+    title: 'Matvey Matveev - Gameplay Designer',
     description: 'Technical game designer focused on game mechanics, Unreal Engine 5, and Unity.',
   },
   ru: {
-    title: 'Матвей Матвеев — Gameplay Designer',
+    title: 'Матвей Матвеев - Gameplay Designer',
     description: 'Технический геймдизайнер с фокусом на игровые механики, Unreal Engine 5 и Unity.',
   },
 };

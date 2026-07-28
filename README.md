@@ -1,4 +1,4 @@
-# Matvey Matveev — Portfolio
+# Matvey Matveev - Portfolio
 
 Personal portfolio website for a Technical Game Designer / Gameplay Designer.
 
