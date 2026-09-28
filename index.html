@@ -15,8 +15,8 @@
   <header class="header" id="top">
     <button type="button" class="lang-toggle" id="lang-toggle" aria-label="Switch to Russian">RU</button>
     <nav class="nav">
-      <a href="#skills" data-i18n-en="Hard Skills" data-i18n-ru="Hard Skills">Hard Skills</a>
       <a href="#projects" data-i18n-en="Projects" data-i18n-ru="Проекты">Projects</a>
+      <a href="#skills" data-i18n-en="Hard Skills" data-i18n-ru="Hard Skills">Hard Skills</a>
       <a href="#education" data-i18n-en="Education" data-i18n-ru="Образование">Education</a>
       <a href="#soft-skills" data-i18n-en="Soft Skills" data-i18n-ru="Soft Skills">Soft Skills</a>
       <a href="#contacts" data-i18n-en="Contacts" data-i18n-ru="Контакты">Contacts</a>
@@ -25,7 +25,6 @@
 
   <main>
     <section class="hero">
-      <div class="hero__bg-text" aria-hidden="true">GAME DESIGN</div>
       <div class="hero__inner">
         <div class="hero__content">
           <h1 class="hero__title">
@@ -34,56 +33,8 @@
           </h1>
           <p class="hero__desc" data-i18n-en="Game mechanics development and systems design with Unreal Engine 5, Unity, and C++" data-i18n-ru="Разработка игровых механик и системный дизайн на Unreal Engine 5, Unity и C++">Game mechanics development and systems design with Unreal Engine 5, Unity, and C++</p>
         </div>
-        <div class="hero__logo" aria-hidden="true">
-          <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="60" cy="60" r="58" stroke="currentColor" stroke-width="2" opacity="0.3"/>
-            <path d="M38 35 L82 60 L38 85 Z" fill="currentColor" opacity="0.25"/>
-          </svg>
-        </div>
       </div>
       <p class="hero__bio" data-i18n-en="Technical game designer focused on building game mechanics and systems design. Experienced in low-level graphics (DirectX 12, master's thesis on multi-GPU grass rendering) and modern engines (Unreal Engine 5, Unity). Participated in multiple game jams and delivered playable projects under tight deadlines." data-i18n-ru="Технический геймдизайнер с фокусом на разработку игровых механик и системный дизайн. Имею опыт низкоуровневой графики (DirectX 12, диплом по multi-GPU рендеру травы) и работы с современными движками (Unreal Engine 5, Unity). Участвовал в нескольких геймджемах и доводил проекты до играбельного состояния в условиях жёстких дедлайнов.">Technical game designer focused on building game mechanics and systems design. Experienced in low-level graphics (DirectX 12, master's thesis on multi-GPU grass rendering) and modern engines (Unreal Engine 5, Unity). Participated in multiple game jams and delivered playable projects under tight deadlines.</p>
-    </section>
-
-    <div class="divider" aria-hidden="true">
-      <span>✦</span><span>✦</span><span>✦</span>
-    </div>
-
-    <section class="section" id="skills">
-      <h2 class="section__title" data-i18n-en="Hard Skills" data-i18n-ru="Hard Skills">Hard Skills</h2>
-      <div class="skills-grid">
-        <div class="skills-col">
-          <h3 class="skills-col__head" data-i18n-en="Languages" data-i18n-ru="Языки">Languages</h3>
-          <ul>
-            <li>C++ (DirectX 12)</li>
-            <li>C# (Unity)</li>
-            <li>Blueprints (UE5)</li>
-          </ul>
-        </div>
-        <div class="skills-col">
-          <h3 class="skills-col__head" data-i18n-en="Engines" data-i18n-ru="Движки">Engines</h3>
-          <ul>
-            <li>Unreal Engine 5</li>
-            <li>Unity</li>
-          </ul>
-        </div>
-        <div class="skills-col">
-          <h3 class="skills-col__head" data-i18n-en="Tools" data-i18n-ru="Инструменты">Tools</h3>
-          <ul>
-            <li>Git</li>
-            <li>Visual Studio</li>
-            <li data-i18n-en="Blender (basic)" data-i18n-ru="Blender (базово)">Blender (basic)</li>
-          </ul>
-        </div>
-        <div class="skills-col">
-          <h3 class="skills-col__head" data-i18n-en="Game Design" data-i18n-ru="Геймдизайн">Game Design</h3>
-          <ul>
-            <li data-i18n-en="Mechanics design" data-i18n-ru="Проектирование механик">Mechanics design</li>
-            <li data-i18n-en="Gameplay balancing" data-i18n-ru="Балансировка геймплея">Gameplay balancing</li>
-            <li data-i18n-en="Tutorial levels" data-i18n-ru="Обучающие уровни">Tutorial levels</li>
-            <li data-i18n-en="Post-processing, shaders" data-i18n-ru="Пост-процессинг, шейдеры">Post-processing, shaders</li>
-          </ul>
-        </div>
-      </div>
     </section>
 
     <div class="divider" aria-hidden="true">
@@ -210,7 +161,55 @@
           </div>
         </div>
       </article>
+    </section>
 
+    <div class="divider" aria-hidden="true">
+      <span>✦</span><span>✦</span><span>✦</span>
+    </div>
+
+    <section class="section" id="skills">
+      <h2 class="section__title" data-i18n-en="Hard Skills" data-i18n-ru="Hard Skills">Hard Skills</h2>
+      <div class="skills-grid">
+        <div class="skills-col">
+          <h3 class="skills-col__head" data-i18n-en="Languages" data-i18n-ru="Языки">Languages</h3>
+          <ul>
+            <li>C++ (DirectX 12)</li>
+            <li>C# (Unity)</li>
+            <li>Blueprints (UE5)</li>
+          </ul>
+        </div>
+        <div class="skills-col">
+          <h3 class="skills-col__head" data-i18n-en="Engines" data-i18n-ru="Движки">Engines</h3>
+          <ul>
+            <li>Unreal Engine 5</li>
+            <li>Unity</li>
+          </ul>
+        </div>
+        <div class="skills-col">
+          <h3 class="skills-col__head" data-i18n-en="Tools" data-i18n-ru="Инструменты">Tools</h3>
+          <ul>
+            <li>Git</li>
+            <li>Visual Studio</li>
+            <li data-i18n-en="Blender (basic)" data-i18n-ru="Blender (базово)">Blender (basic)</li>
+          </ul>
+        </div>
+        <div class="skills-col">
+          <h3 class="skills-col__head" data-i18n-en="Game Design" data-i18n-ru="Геймдизайн">Game Design</h3>
+          <ul>
+            <li data-i18n-en="Mechanics design" data-i18n-ru="Проектирование механик">Mechanics design</li>
+            <li data-i18n-en="Gameplay balancing" data-i18n-ru="Балансировка геймплея">Gameplay balancing</li>
+            <li data-i18n-en="Tutorial levels" data-i18n-ru="Обучающие уровни">Tutorial levels</li>
+            <li data-i18n-en="Post-processing, shaders" data-i18n-ru="Пост-процессинг, шейдеры">Post-processing, shaders</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" aria-hidden="true">
+      <span>✦</span><span>✦</span><span>✦</span>
+    </div>
+
+    <section class="section" id="more-projects">
       <article class="project">
         <h3 class="project__title" data-i18n-en="Mechanic Prototypes on GitHub" data-i18n-ru="Прототипы механик на GitHub">Mechanic Prototypes on GitHub</h3>
         <div class="project__meta" data-i18n-en="Solo · UE5 &amp; Unity · Hypothesis-driven practice · 2025–2026" data-i18n-ru="Самостоятельно · UE5 и Unity · Проверка гипотез · 2025–2026">Solo · UE5 &amp; Unity · Hypothesis-driven practice · 2025–2026</div>
