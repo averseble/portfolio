@@ -1,3 +1,5 @@
+localStorage.removeItem('site-color');
+
 const PAGE_META = {
   en: {
     title: 'Matvey Matveev - Gameplay Designer',
@@ -60,15 +62,3 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 });
-
-const header = document.querySelector('.header');
-
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 80) {
-    header.style.background = 'rgba(8, 8, 8, 0.92)';
-    header.style.backdropFilter = 'blur(8px)';
-  } else {
-    header.style.background = 'linear-gradient(to bottom, #080808 60%, transparent)';
-    header.style.backdropFilter = 'none';
-  }
-}, { passive: true });
